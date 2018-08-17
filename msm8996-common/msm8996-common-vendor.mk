@@ -561,9 +561,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     QtiTelephonyService \
-    ims \
     uceShimService \
-    CNEService \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
