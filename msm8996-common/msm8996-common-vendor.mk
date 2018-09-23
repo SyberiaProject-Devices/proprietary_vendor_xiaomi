@@ -602,6 +602,7 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     QtiTelephonyService \
     ims \
+    imssettings \
     uceShimService \
     CNEService \
     dpmserviceapp \
