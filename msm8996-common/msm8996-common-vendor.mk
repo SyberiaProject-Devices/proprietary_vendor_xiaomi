@@ -600,4 +600,5 @@ PRODUCT_PACKAGES += \
     CNEService \
     PowerOffAlarm \
     TimeService \
-    ReferenceFeature
+    ReferenceFeature \
+    chargeonlymode
