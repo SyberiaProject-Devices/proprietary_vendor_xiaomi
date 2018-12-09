@@ -20,6 +20,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm845-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/sdm845-common/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/sdm845-common/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
+    vendor/xiaomi/sdm845-common/proprietary/bin/perfservice:system/bin/perfservice \
+    vendor/xiaomi/sdm845-common/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
+    vendor/xiaomi/sdm845-common/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
     vendor/xiaomi/sdm845-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/sdm845-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/xiaomi/sdm845-common/proprietary/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml:system/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml \
@@ -70,6 +73,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm845-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/sdm845-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/xiaomi/sdm845-common/proprietary/lib/libqdMetaData.system.so:system/lib/libqdMetaData.system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib/libqti-perfd-client_system.so:system/lib/libqti-perfd-client_system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib/libqti-util_system.so:system/lib/libqti-util_system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/xiaomi/sdm845-common/proprietary/lib/librcc.so:system/lib/librcc.so \
     vendor/xiaomi/sdm845-common/proprietary/lib/libwfdaac.so:system/lib/libwfdaac.so \
     vendor/xiaomi/sdm845-common/proprietary/lib/libwfdavenhancements.so:system/lib/libwfdavenhancements.so \
@@ -130,6 +138,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm845-common/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/sdm845-common/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
     vendor/xiaomi/sdm845-common/proprietary/lib64/libqdMetaData.system.so:system/lib64/libqdMetaData.system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib64/libqti-iopd-client_system.so:system/lib64/libqti-iopd-client_system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib64/libqti-perfd-client_system.so:system/lib64/libqti-perfd-client_system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib64/libqti-util_system.so:system/lib64/libqti-util_system.so \
+    vendor/xiaomi/sdm845-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/xiaomi/sdm845-common/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/sdm845-common/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
     vendor/xiaomi/sdm845-common/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
@@ -172,4 +185,6 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     WfdCommon \
+    QPerformance \
+    UxPerformance \
     chargeonlymode
