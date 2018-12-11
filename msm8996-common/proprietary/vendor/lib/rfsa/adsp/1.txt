@@ -1,0 +1,17 @@
+.
+./capi_v2_aptX_Classic.so
+./libadsp_hvx_add_constant.so
+./libadsp_hvx_skel.so
+./libdspCV_skel.so
+./libadsp_fd_skel.so
+./1.txt
+./libvpp_svc_skel.so
+./libapps_mem_heap.so
+./dirac_resource.dar
+./libdirac-capiv2.so
+./libfastcvadsp.so
+./capi_v2_aptX_HD.so
+./libfastcvadsp_skel.so
+./libscveBlobDescriptor_skel.so
+./libscveObjectSegmentation_skel.so
+./libscveT2T_skel.so
