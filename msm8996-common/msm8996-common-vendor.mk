@@ -656,16 +656,16 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libthermalclient \
     QtiTelephonyService \
+    imssettings \
     uceShimService \
     CNEService \
     SmartcardService \
     WfdService \
     dpmserviceapp \
+    ims \
     qcrilmsgtunnel \
     PowerOffAlarm \
     TimeService \
-    ims \
-    imssettings \
     QPerformance \
     UxPerformance \
     WfdCommon \
